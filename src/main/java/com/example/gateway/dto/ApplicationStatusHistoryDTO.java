@@ -11,7 +11,6 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @ToString
-//@TypeDef(name = "jsonb", typeClass = JsonBinaryType.class) //todo
 public class ApplicationStatusHistoryDTO implements Serializable {
     Status status;
     LocalDateTime time;
